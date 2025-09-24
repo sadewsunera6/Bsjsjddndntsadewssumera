@@ -220,33 +220,34 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『  𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
-
-✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
-⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
-📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
-🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
-⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
+╔══════════════════════╗
+║ 🎬🍟 𝐓𝐇𝐄 𝐌𝐎𝐕𝐈𝐄 𝐇𝐔𝐁 🍟🎬
+╠══════════════════════╣
+║🍿 *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
+║⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
+║📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
+║🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
+║⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
+╠══════════════════════╣
+║ ⚖️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :  𝚂𝙰𝙳𝙴𝚆™📍
+╚══════════════════════╝
         `.trim();
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🎬 *『  𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
-*┎─┤● Tʜᴇ Mᴏᴠɪᴇ Hᴜʙ  ● ├──✥*
-*┃   Ｓᵃᵈᵉʷ ❥ Ｓᵘⁿᵉʳᵃ*
-*┣━━━━━❰ DETAILS* ❱━➣
-
-> 🍿 *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
-> ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
-> 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
-> 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
-> ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
-> 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
-╰─────ˢ ᵃ ᵈ ᵉ ʷ  ˢ ᵘ ⁿ ᵉ ʳ ᵃ──────➣   
-
-*✰🍿 ᴍⷮᴏⷩᴠⷷɪᴇ ʜᴜʙ ɢʀᴏᴜᴘ 🍿✰*   
-      *❥ 𝙿𝚁𝙴𝚂𝙴𝙽𝚃𝚂 ❥*
+╔══════════════════════╗
+║ 🎬🍟 𝐓𝐇𝐄 𝐌𝐎𝐕𝐈𝐄 𝐇𝐔𝐁 🍟🎬
+╠══════════════════════╣
+║ 🍿 *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
+║ ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
+║ 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
+║ 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
+║ ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
+║ 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+╠══════════════════════╣
+║ ⚖️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :  𝚂𝙰𝙳𝙴𝚆™📍
+╚══════════════════════╝
 `.trim();
   },
   CINETVSHOW: function (movieResponse) {
@@ -432,27 +433,22 @@ ${isGroup ? `\n\n📨 *Shared In:* ${groupMetadata?.subject || "Group"}\n🛡️
   },
   AUTOMOVIE: function (title, rating, metadata, description, isGroup, groupMetadata, conf) {
     return `
-🎬 *『  𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
-
-*┎─┤● Tʜᴇ Mᴏᴠɪᴇ Hᴜʙ  ● ├──✥*
-*┃   Ｓᵃᵈᵉʷ ❥ Ｓᵘⁿᵉʳᵃ*
-*┣━━━━━❰ DETAILS* ❱━➣
-
-> 🍿 *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
-> ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
-> 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
-> 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
-> ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
-> 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
-╰─────ˢ ᵃ ᵈ ᵉ ʷ  ˢ ᵘ ⁿ ᵉ ʳ ᵃ──────➣   
-
-*✰🍿 ᴍⷮᴏⷩᴠⷷɪᴇ ʜᴜʙ ɢʀᴏᴜᴘ 🍿✰*   
-      *❥ 𝙿𝚁𝙴𝚂𝙴𝙽𝚃𝚂 ❥*
+╔══════════════════════╗
+║ 🎬🍟 𝐓𝐇𝐄 𝐌𝐎𝐕𝐈𝐄 𝐇𝐔𝐁 🍟🎬
+╠══════════════════════╣
+║ 🍿 *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
+║ ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
+║ 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
+║ 🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
+║ ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
+║ 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+╠══════════════════════╣
+║ ⚖️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :  𝚂𝙰𝙳𝙴𝚆™📍
+╚══════════════════════╝
 `.trim();
 
-
 📝 *𝙈𝚘𝚟𝚒𝚎 𝙎𝚞𝚖𝚖𝚊𝚛𝚢:*
-${description || "— 𝙉𝙤 𝙙𝙚𝙩𝙖𝙞𝙡𝙨 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 —"}
+${description || "```— 𝙉𝙤 𝙙𝙚𝙩𝙖𝙞𝙡𝙨 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 —```"}
 
 ━━━━━━━━━━━━━━━
 ${conf.FOOTER}`.trim();
